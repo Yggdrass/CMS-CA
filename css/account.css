@@ -1,0 +1,87 @@
+body {
+  background-color: var(--lightBlue);
+  margin: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  position: relative;
+}
+
+.container div {
+  border: 1px solid black;
+}
+
+#accountTitle {
+  font-family: "Lucida console", Arial, sans-serif;
+  font-size: 1em;
+  letter-spacing: 5px;
+  line-height: 5px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#login_btn {
+  font-size: 3em;
+}
+
+#reg_btn {
+  font-size: 3em;
+}
+
+.infoboxAccount {
+  background-color: var(--mainblue);
+  max-width: 70em;
+  padding: 2em;
+  border-radius: 2em;
+}
+
+#accountInfo {
+  color: white;
+  list-style: none;
+  font-family: "Lucida console", Arial, sans-serif;
+  font-size: 3em;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+div ul {
+  display: block;
+}
+
+ul li {
+  padding: 0.5em;
+}
+
+#buy_btn,
+#sell_btn,
+#change_btn {
+  font-size: 2.5em;
+  margin: 0.5em;
+  background-color: var(--green);
+  color: var(--white);
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1.5rem 3rem;
+
+  border: none;
+  cursor: pointer;
+  border-radius: 3rem;
+  text-transform: uppercase;
+  font-family: "Lucida_Console", Arial, sans-serif;
+  transition: 0.5s transform ease-in-out;
+  text-decoration: none;
+}
+
+#buy_btn:hover,
+#sell_btn:hover,
+#change_btn:hover {
+  background-color: var(--white);
+  color: var(--green);
+  font-size: 2rem;
+  width: fit-content;
+  z-index: 100;
+}

@@ -1,0 +1,116 @@
+@font-face {
+  font-family: "Lucida_Console";
+  src: url("fonts/lucida_console_regular.ttf");
+
+  font-family: "Bauhaus_93";
+  src: url("fonts/bauhs93.ttf");
+}
+
+body {
+  background-color: #1b203d;
+  background-image: url(../../images/backgrounds/hexagonal_fade.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  position: relative;
+}
+
+.container div {
+  border: 1px solid black;
+}
+
+footer {
+  background-color: white;
+  min-height: 50px;
+  width: 100vw;
+  margin: 0px;
+  padding: 0px;
+  position: fixed;
+  bottom: 0px;
+  z-index: 2;
+}
+
+#reg_txt {
+  font-family: "Lucida console", Arial, sans-serif;
+  font-size: 1em;
+  letter-spacing: 5px;
+  line-height: 5px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.reg_form {
+  background-color: var(--pink);
+  max-width: 50em;
+  height: 60em;
+  margin: 0 auto;
+  border-radius: 30px;
+}
+
+ul li {
+  padding: 0.5em;
+}
+
+#fill_form {
+  color: white;
+  list-style: none;
+  font-family: "Lucida console", Arial, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  display: inline-block;
+  position: center;
+  text-align: left;
+}
+
+#box {
+  position: relative;
+  font-size: 25px;
+  width: 400px;
+  height: 50px;
+}
+
+#box_1 {
+  position: relative;
+  font-size: 25px;
+  width: 150px;
+  height: 150px;
+}
+
+#box_2 {
+  font-size: 25px;
+  width: 600px;
+  height: 250px;
+}
+
+#toAccount,
+#buyGames {
+  font-size: 2.5em;
+  background-color: var(--green);
+  color: var(--white);
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1.5rem 3rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 3rem;
+  text-transform: uppercase;
+  font-family: "Lucida_Console", Arial, sans-serif;
+  transition: 0.5s transform ease-in-out;
+  text-decoration: none;
+}
+
+#toAccount:hover,
+#buyGames:hover {
+  background-color: var(--white);
+  color: var(--green);
+  font-size: 2rem;
+  width: fit-content;
+  z-index: 100;
+}

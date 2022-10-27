@@ -1,0 +1,91 @@
+body {
+  background-color: var(--yellow);
+  background-image: url("../images/backgrounds/ps4_yellow_background.jpg");
+  margin: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+#login_title,
+#login_notRegistered {
+  font-family: "Lucida console", Arial, sans-serif;
+  font-size: 4em;
+  letter-spacing: 0.1em;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 1.5em;
+}
+
+#login_title {
+  font-size: 4em;
+  padding-top: 1em;
+}
+
+.main_login {
+  gap: 2em;
+  padding-bottom: 30em;
+}
+
+#login_btn {
+  font-size: 2.5em;
+  margin: 0.5em;
+  background-color: var(--green);
+  color: var(--white);
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1.5rem 3rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 3rem;
+  text-transform: uppercase;
+  font-family: "Lucida_Console", Arial, sans-serif;
+  transition: 0.5s transform ease-in-out;
+  text-decoration: none;
+}
+
+#login_field {
+  font-family: "Lucida console", Arial, sans-serif;
+  text-transform: uppercase;
+  padding-top: 0.5em;
+  font-size: 2.7em;
+  letter-spacing: 0.1em;
+}
+
+#registerButton {
+  background-color: var(--green);
+  color: var(--white);
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1.5rem 3rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 3rem;
+  text-transform: uppercase;
+  font-family: "Lucida_Console", Arial, sans-serif;
+  transition: 0.5s transform ease-in-out;
+  text-decoration: none;
+}
+
+#registerButton:hover,
+#login_btn:hover {
+  background-color: var(--white);
+  color: var(--green);
+  font-size: 2rem;
+  width: fit-content;
+  z-index: 100;
+}
+
+#login_notRegistered {
+  font-size: 2em;
+  padding: 0.5em 0.5em;
+  border-radius: 30em;
+  background-color: var(--white);
+}
+
+input {
+  min-width: 20em;
+  margin-top: 1rem;
+  padding: 1em;
+  font-size: 1.5rem;
+}

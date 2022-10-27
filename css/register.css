@@ -1,0 +1,121 @@
+body {
+  background-color: var(--yellow);
+  margin: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  position: relative;
+}
+
+.container div {
+  border: 1px solid black;
+}
+
+footer {
+  background-color: white;
+  min-height: 50px;
+  width: 100vw;
+  margin: 0px;
+  padding: 0px;
+  position: fixed;
+  bottom: 0px;
+  z-index: 2;
+}
+
+main {
+  background-image: url("../../images/backgrounds/ps4_yellow_background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 100%;
+}
+
+.reg_form {
+  background-color: var(--lightBlue);
+  position: relative;
+  width: 1000px;
+  height: 650px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 30px;
+}
+
+#registerForm {
+  font-family: "Lucida console", Arial, sans-serif;
+  text-transform: uppercase;
+  padding: 2em;
+  font-size: 2em;
+  letter-spacing: 0.1em;
+  display: block;
+}
+
+#registerTitle {
+  font-family: "Lucida console", Arial, sans-serif;
+  font-size: 1em;
+  letter-spacing: 5px;
+  line-height: 5px;
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#login_btn {
+  font-size: 3em;
+}
+
+#reg_btn {
+  position: absolute;
+  top: 650px;
+  left: 560px;
+  font-size: 1em;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+#box {
+  font-size: 30px;
+  width: 500px;
+  height: 50px;
+}
+
+#box_1 {
+  font-size: 25px;
+  width: 100px;
+  height: 50px;
+}
+
+#box_2 {
+  font-size: 25px;
+  width: 200px;
+  height: 50px;
+}
+
+#registerToAccount {
+  font-size: 2.5em;
+  margin: 0.5em;
+  background-color: var(--green);
+  color: var(--white);
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1.5rem 3rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 3rem;
+  text-transform: uppercase;
+  font-family: "Lucida_Console", Arial, sans-serif;
+  transition: 0.5s transform ease-in-out;
+  text-decoration: none;
+}

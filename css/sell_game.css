@@ -1,0 +1,140 @@
+body {
+  background-color: #1b203d;
+  background-image: url(../../images/backgrounds/hexagonal_fade.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  position: relative;
+}
+
+.container div {
+  border: 1px solid black;
+}
+
+footer {
+  background-color: white;
+  min-height: 50px;
+  width: 100vw;
+  margin: 0px;
+  padding: 0px;
+  position: fixed;
+  bottom: 0px;
+}
+
+#reg_txt {
+  font-family: "Lucida console", Arial, sans-serif;
+  font-size: 4em;
+  letter-spacing: 5px;
+  line-height: 5px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.main {
+  position: relative;
+  max-width: 100%;
+}
+
+.reg_form {
+  background-color: var(--lightBlue);
+  position: relative;
+  max-width: 50em;
+  max-height: 90em;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 5em;
+  border-radius: 2em;
+}
+
+li {
+  padding: 10px;
+}
+
+#fill_form {
+  color: white;
+  list-style: none;
+  font-family: "Lucida console", Arial, sans-serif;
+  font-size: 3em;
+  text-transform: uppercase;
+  text-align: center;
+  justify-content: space-between;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+#box {
+  font-size: 25px;
+  width: 400px;
+  height: 50px;
+}
+
+#box_1 {
+  font-size: 25px;
+  width: 600px;
+  height: 300px;
+}
+
+#box_2 {
+  font-size: 25px;
+  width: 120px;
+  height: 50px;
+}
+
+#box_3 {
+  font-size: 25px;
+  width: 150px;
+  height: 150px;
+}
+
+#cat_txt {
+  font-size: 0.5em;
+}
+
+#agree_txt {
+  font-size: 16px;
+  text-align: left;
+}
+
+#submitGame {
+  font-size: 2.5em;
+  margin: 0.5em;
+  background-color: var(--green);
+  color: var(--white);
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1.5rem 3rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 3rem;
+  text-transform: uppercase;
+  font-family: "Lucida_Console", Arial, sans-serif;
+  transition: 0.5s transform ease-in-out;
+  text-decoration: none;
+}
+
+#submitGame:hover {
+  background-color: var(--white);
+  color: var(--green);
+  font-size: 2rem;
+  width: fit-content;
+  z-index: 100;
+}

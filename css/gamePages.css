@@ -1,0 +1,80 @@
+.container {
+  max-width: 1000em;
+  display: flex;
+}
+
+.container div {
+  padding: 0.5em;
+}
+
+
+#descriptionGameTitle {
+  font-size: 5rem;
+  max-width: 40ch;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p {
+  margin-left: 10em;
+  margin-right: 10em;
+}
+
+#gameImg {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#main1 {
+  padding-bottom: 1em;
+}
+
+#main2,
+#main3 {
+  padding-bottom: 2em;
+}
+
+#main1,
+#main2,
+#main3 {
+  font-family: "Lucida console", Arial, sans-serif;
+  min-width: 10em;
+  font-size: 3em;
+  text-align: center;
+  background-color: white;
+  padding-bottom: 2em;
+  text-transform: uppercase;
+}
+
+#box_1 {
+  font-size: 25px;
+  width: 600px;
+  height: 300px;
+}
+
+#used_btn,
+#new_btn {
+  background-color: var(--green);
+  color: var(--white);
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1.5rem 4rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 3rem;
+  text-transform: uppercase;
+  font-family: "Lucida_Console", Arial, sans-serif;
+  transition: 2s transform ease-in-out;
+  text-decoration: none;
+  max-width: 5rem;
+}
+
+#new_btn:hover,
+#used_btn:hover {
+  font-size: 2.2rem;
+  z-index: 100;
+  padding: 1.5rem 4rem;
+}
+
+
